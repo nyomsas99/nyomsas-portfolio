@@ -1,0 +1,31 @@
+html {
+    position: relative;
+}
+body {
+    margin-bottom: 120px;
+}
+
+
+.about {
+    background-color: #AFEEEE;
+}
+.portfolio {
+    background-color: #B0C4DE;
+}
+section {
+    min-height: 420px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contact {
+    background-color:  PeachPuff;
+}
+.skill {
+    background-color: #FFF5EE;
+}
+.education {
+    background-color: #8FBC8F;
+}
