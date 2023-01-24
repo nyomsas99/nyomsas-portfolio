@@ -1,12 +1,15 @@
-$('.page-scroll').on('click', function(e) {
+$(".page-scroll").on("click", function (e) {
+  var tujuan = $(this).attr("href");
 
-    var tujuan = $(this).attr('href');
+  var elemenTujuan = $(tujuan);
 
-    var elemenTujuan = $(tujuan);
+  $("html , body").animate(
+    {
+      scrollTop: elemenTujuan.offset().top - 50,
+    },
+    1250,
+    "swing"
+  );
 
-    $('html , body').animate({
-    scrollTop: elemenTujuan.offset().top - 50
-    }, 1250, 'swing');
-
-    e.preventDefault();
-    });
+  e.preventDefault();
+});
